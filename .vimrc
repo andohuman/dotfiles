@@ -1,6 +1,7 @@
 set t_Co=256
 
 set ts=4 sw=4 expandtab autoindent number smartindent
+set bg=dark
 
 set nocompatible
 filetype off
