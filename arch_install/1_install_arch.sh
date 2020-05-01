@@ -33,7 +33,7 @@ genfstab -U /mnt >> /mnt/etc/fstab
 #change root into the fresh installation to configure stuff
 wget https://raw.githubusercontent.com/andohuman/dotfiles/master/arch_install/2_configure_chroot.sh
 mv 2_configure_chroot.sh /mnt
-arch_chroot /mnt chmod +x 2_configure_chroot.sh
+arch-chroot /mnt chmod +x 2_configure_chroot.sh
 arch-chroot /mnt ./2_configure_chroot.sh
 rm /mnt/2_configure_chroot.sh
 
